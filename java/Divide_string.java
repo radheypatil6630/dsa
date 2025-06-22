@@ -1,5 +1,6 @@
 public class Divide_string {
-
+//2138 problem number
+//https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/
     public String[] divideString(String s, int k, char fill) {
         int n = s.length();
         int mod = n % k;
