@@ -8,14 +8,14 @@ public class FindAllKDistantIndices {
         List<Integer> keyIndices = new ArrayList<>();
         int n = nums.length;
 
-        // Step 1: Find all indices where nums[i] == key
+       
         for (int i = 0; i < n; i++) {
             if (nums[i] == key) {
                 keyIndices.add(i);
             }
         }
 
-        // Step 2: Mark indices within k distance of any key index
+        
         boolean[] seen = new boolean[n];
         for (int index : keyIndices) {
             int start = Math.max(0, index - k);
@@ -25,7 +25,6 @@ public class FindAllKDistantIndices {
             }
         }
 
-        // Step 3: Collect all marked indices
         for (int i = 0; i < n; i++) {
             if (seen[i]) {
                 res.add(i);
