@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/string_manipulation.iml" filepath="$PROJECT_DIR$/string_manipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bitwise_operator.iml" filepath="$PROJECT_DIR$/bitwise_operator.iml" />
     </modules>
   </component>
 </project>
