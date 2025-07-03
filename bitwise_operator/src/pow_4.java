@@ -1,5 +1,6 @@
 public class pow_4 {
     public static void main(String[] args){
+        //342 power of 4
         int n = 16;
 
         System.out.println(n+" is power of  4  ? = "+ isPowerOfFour(n));
